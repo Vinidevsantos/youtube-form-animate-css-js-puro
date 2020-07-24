@@ -170,6 +170,7 @@ body {
     opacity: 1;
   }
   to {
-    transform: translateY(-800px) rotate(960deg);
+    /* Altetei o transform: translateY(-800px) por (-100vh) eu uso monitor 2.5k de resolucao e no caso os quadrados so iam ate a metade da tela. */
+    transform: translateY(-100vh) rotate(960deg); 
   }
 }
